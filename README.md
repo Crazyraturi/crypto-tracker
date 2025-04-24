@@ -1,12 +1,43 @@
-# React + Vite
+# 💹 Real-Time Crypto Price Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive real-time crypto price tracker built with React and Redux Toolkit. This app simulates live market updates using mocked data to imitate WebSocket behavior. Inspired by platforms like CoinMarketCap.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📽️ Demo
 
-## Expanding the ESLint configuration
+👉 [Watch the Demo on YouTube](https://youtu.be/n4nZ-uKeMVk)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- Real-time price updates every 2 seconds
+- Color-coded % changes (green for positive, red for negative)
+- Mini sparkline chart for 7-day price trend
+- Responsive UI for desktop and mobile
+- Clean table layout with data like:
+  - Name, Symbol, Price
+  - % Changes (1h, 24h, 7d)
+  - Market Cap, Volume, Circulating Supply, Max Supply
+
+---
+
+## 🧠 Tech Stack
+
+- **React** – Component-based UI
+- **Redux Toolkit** – Global state management
+- **Tailwind CSS** – Utility-first CSS framework
+- **React Sparklines** – Sparkline charts
+- **Lucide Icons** – Icons for up/down indicators
+
+---
+
+## 🛠 Setup Instructions
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/yourusername/crypto-price-tracker.git
+cd crypto-price-tracker
+npm i
+npm run dev
